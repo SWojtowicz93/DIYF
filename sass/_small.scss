@@ -1,0 +1,8 @@
+@media(min-width: 576px){
+    .info{
+        &__box-img,
+        &__box-text{
+            max-width: 500px;
+        }
+    }
+}
