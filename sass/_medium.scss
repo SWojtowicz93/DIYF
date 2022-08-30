@@ -1,8 +1,12 @@
 @media(min-width: 768px){
     .cards{
         &__box{
-            padding: 10em 2em;
+            padding: 10em 1.2em;
         }
+        h3{
+        font-size: 1.6rem;
+        }
+
         &__card{
             &--one{
                 grid-row: 1/2;

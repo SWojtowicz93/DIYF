@@ -148,7 +148,7 @@ h1.co-name {
 .cards__box {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 2em;
+  gap: 1em;
   padding: 6em 2em;
 }
 .cards__card {
@@ -213,7 +213,7 @@ h1.co-name {
 .info__boxes {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 2em;
+  gap: 1em;
   padding: 4em 2em;
 }
 .info__box-img {
@@ -373,7 +373,10 @@ h1.co-name {
 }
 @media (min-width: 768px) {
   .cards__box {
-    padding: 10em 2em;
+    padding: 10em 1.2em;
+  }
+  .cards h3 {
+    font-size: 1.6rem;
   }
   .cards__card--one {
     grid-row: 1/2;
